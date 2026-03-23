@@ -1,0 +1,239 @@
+<!--
+ * Progetto: Portale Web Croce Verde Baggio
+ * Versione: 2.1.0
+ * Autori: Samuele Gonnella & Francesco Simone
+ * Licenza: Proprietà intellettuale riservata agli autori. 
+ * Concessione d'uso esclusiva per: Croce Verde Baggio (MI)
+ * Data rilascio: Febbraio 2026
+-->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Croce Verde Baggio - Organizzazione di volontari dedicati al servizio sanitario e comunitario. #volontariperpassione">
+    <meta name="keywords" content="volontariato, sanitario, croce verde, baggio, milano, emergenza">
+    <meta name="theme-color" content="#1b9d17">
+    <meta name="robots" content="max-image-preview:large">
+
+    <!-- Meta Tags -->
+    <meta property="og:title" content="Croce Verde Baggio – #volontariperpassione">
+    <meta property="og:url" content="https://www.croceverdebaggio.it">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Croce Verde Baggio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/logo_cvb-150x150.png">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.croceverdebaggio.it">
+
+    <!-- RSS Feeds -->
+    <link rel="alternate" type="application/rss+xml" title="Croce Verde Baggio » Feed"
+        href="https://www.croceverdebaggio.it/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Croce Verde Baggio » Feed dei commenti"
+        href="https://www.croceverdebaggio.it/comments/feed/">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+
+    <!-- Preconnect to External Resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Croce Verde Baggio – #volontariperpassione</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="cvb-header">
+        <nav class="cvb-nav">
+            <div class="nav-logo">
+                <img src="images/logo_cvb-150x150.png" alt="Logo Croce Verde Baggio"
+                    style="max-height:60px;margin-right:12px">
+                <h1><a href="index.html" style="text-decoration:none;color:inherit">Croce Verde Baggio</a></h1>
+            </div>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="storia.html">Storia</a></li>
+                <li><a href="about.html">Chi Siamo</a></li>
+                <li><a href="volunteer.html">Diventa Volontario</a></li>
+                <li><a href="donate.html">Sostienici</a></li>
+                <li><a href="contact.html">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="l-main">
+        <!-- Hero Section -->
+        <section class="cvb-hero" aria-labelledby="cvb-hero-title">
+            <div class="hero-content">
+                <h1 id="cvb-hero-title">Croce Verde Baggio — <span class="hashtag">#volontariperpassione</span></h1>
+                <p class="hero-sub">Organizzazione di volontari dedicati al servizio sanitario e comunitario attiva su
+                    Milano e provincia</p>
+                <p><a href="donate.html" class="cta" role="button">Aiuta ad aiutare</a></p>
+                <p><a href="volunteer.html" class="cta" role="button">Diventa volontario</a></p>
+            </div>
+            <div class="hero-media" aria-hidden="true">
+                <img src="images/logo_cvb-150x150.png" alt="Logo Croce Verde Baggio"
+                    style="max-width:120px;border-radius:50%;background:#fff;padding:6px">
+            </div>
+        </section>
+
+        <!-- Layout con Sidebar -->
+        <div class="cvb-layout" role="region" aria-label="Contenuto principale">
+            <section class="cvb-main" id="servizi">
+                <h2 class="visually-hidden">Servizi</h2>
+                <div class="services-grid" role="list">
+                    <article class="service-card">
+                        <h3>🚑 Servizio Ambulanze</h3>
+                        <p>Servizio 24/7 di emergenza e trasporto sanitario per la provincia di Milano.</p>
+                        <a class="cta" href="tel:+390248911170">Chiama 02 48911170</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>📚 Corsi di Primo Soccorso</h3>
+                        <p>Formazione BLSD e primo soccorso aperta a tutti i cittadini e aziende.</p>
+                        <a class="cta" href=volunteer.html>Richiedi corso</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>💪 Diventa Volontario</h3>
+                        <p>Unisciti alla squadra di soccorritori e dai il tuo contributo alla comunità.</p>
+                        <a class="cta" href="volunteer.html">Scopri come</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>❤️ Sostienici</h3>
+                        <p>Donazioni e iniziative per supportare le nostre attività e progetti nel territorio.</p>
+                        <a class="cta" href="sostienici.html">Sostieni</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>🛒 Pronto Spesa</h3>
+                        <p>Supporto e assistenza per le persone in difficoltà economica della comunità.</p>
+                        <a class="cta" href="https://www.croceverdebaggio.it/portfolio/pronto-spesa/">Info</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>📋 Chi Siamo</h3>
+                        <p>ODVC fondato nel 1911, parte della rete ANPAS Lombardia per il volontariato sanitario.</p>
+                        <a class="cta" href="about.html">Scopri</a>
+                    </article>
+                </div>
+            </section>
+
+            <aside class="cvb-sidebar" aria-labelledby="cvb-sidebar-title">
+                <h3 id="cvb-sidebar-title">📰 News e Aggiornamenti</h3>
+                <ul class="cvb-news" style="list-style:none;padding:0;margin:0">
+                    <li class="news-item">
+                        <div class="news-content">
+                            <h4>Emergenza Umanitaria</h4>
+                            <p><a href="https://www.croceverdebaggio.it/portfolio/emergenza-umanitaria/">Solidarietà per
+                                    l'Ucraina</a></p>
+                        </div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-content">
+                            <h4>115 Anni di storia</h4>
+                            <p><a href="storia.html">Una bella storia di volontariato</a></p>
+                        </div>
+                    </li>
+                    <li class="news-item">
+                        <div class="news-content">
+                            <h4>Come nasce un Soccorritore</h4>
+                            <p><a href="portfolio/come-nasce-un-soccorritore.html">Scoprilo!</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <div class="cvb-quick-contacts">
+                    <h4>Contatti rapidi</h4>
+                    <p><a href="tel:+390248911170" aria-label="Chiama Croce Verde">📞 02 48911170</a></p>
+                    <p><a href="mailto:info@croceverdebaggio.it" aria-label="Email Croce Verde">✉️
+                            info@croceverdebaggio.it</a></p>
+                    <p><a href="contact.html" aria-label="Dove siamo">📍 Dove siamo</a></p>
+                    <p><a href="https://anpaslombardia.org/" aria-label="ANPAS Lombardia" target="_blank">🔗 ANPAS
+                            Lombardia</a></p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contatti" class="cvb-footer">
+        <div class="l-main">
+            <h2>Contattaci</h2>
+            <p>
+                <strong>P.A Croce Verde Baggio ODV</strong><br>
+                Piazza Cesare Stovani, 7 | 20152 Milano (MI)<br>
+                Tel: <a href="tel:+390248911170">+39 02 48911170</a><br>
+                Email: <a href="mailto:info@croceverdebaggio.it">info@croceverdebaggio.it</a>
+            </p>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy;
+                    <?php echo date("Y"); ?> <strong>Croce Verde Baggio</strong> |
+                    <span class="hashtag-white">#volontariperpassione</span>
+                </p>
+                <p class="technical-credits">
+                    <small>
+                        Sviluppo Tecnico: <strong>S. Gonnella</strong><br>
+                        Idea Progetto: <strong>F. Simone</strong><br>
+                        Proprietary Code - All Rights Reserved | Conformity: WCAG 2.1 AA & GDPR Compliant
+                        <a href="License" target="_blank" style="color:inherit; text-decoration:underline;">See
+                            License</a>
+                    </small>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+    <script>
+        // Hamburger Menu Toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const navMenu = document.getElementById('navMenu');
+
+            if (hamburgerBtn) {
+                hamburgerBtn.addEventListener('click', function () {
+                    navMenu.classList.toggle('active');
+                    hamburgerBtn.setAttribute('aria-expanded', navMenu.classList.contains('active'));
+                });
+
+                // Chiudi menu quando clicchi su un link
+                const navLinks = navMenu.querySelectorAll('a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        navMenu.classList.remove('active');
+                        hamburgerBtn.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+        });
+    </script>
+    <!-- Cookie Compliance Script -->
+    <script>
+        var huOptions = {
+            "appID": "wwwcroceverdebaggioit-9b23429",
+            "currentLanguage": "it",
+            "blocking": false,
+            "globalCookie": false,
+            "isAdmin": false,
+            "privacyConsent": true,
+            "forms": []
+        };
+    </script>
+</body>
+
+</html>

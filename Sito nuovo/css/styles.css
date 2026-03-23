@@ -1,0 +1,10 @@
+/* Import main stylesheet with hero background & Tailwind-style utility CSS */
+@import url('style.css');
+
+/* For safety, force hero background in case of cascade issues */
+.cvb-hero {
+  background-image: url('../images/B48.webp') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
